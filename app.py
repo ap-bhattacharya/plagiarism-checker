@@ -143,8 +143,12 @@ if uploaded_files:
 else:
     st.info("💡 Upload `.txt` files to begin the plagiarism check!")
 
-# Footer Section
+#footer text
 st.markdown(
-    '<div class="footer">Made with ❤️ using Streamlit by Jagriti</div>',
+    """
+    <div style="text-align: center;">
+        Made with ❤️ using Streamlit by Jagriti
+    </div>
+    """,
     unsafe_allow_html=True
 )
